@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.body {
+    background-image: url("https://thumbs.dreamstime.com/z/binary-computer-code-optic-deformed-illustration-background-32763176.jpg");
+   
+  }
+  
+ .card {
+    background-color: #14e625;
+    
+}
