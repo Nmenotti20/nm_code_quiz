@@ -12,16 +12,22 @@
 
     <!--Link to style.css-->
    <link rel="stylesheet" href="style.css" />
-
   </head>
-  <body>
-    <header>
-    <div class="jumbotron">
-        <div class="p-3 mb-2 bg-primary text-white">
-        <h1 class="display-4">Welcome to the NM Code Quiz!</h1>    
-    </div>    
-    </header>
 
+  <header>
+   
+  <!--Button for High Scores--> 
+  <button type="button" class="btn btn-primary">View High Scores</button>
+ 
+  <!--Countdown Timer ID-->
+  <h1 id="countdown">10:00</h1>
+
+ 
+
+
+    
+    </header>
+    <body>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -35,19 +41,15 @@
     -->
  
 
+    
+
+
     <!--Boostrap Card-->
-    <div class="card w-50">
+    <div class="card w-60">
         <div class="card-body">
-          <h5 class="card-title">Question #1</h5>
-          <h6>(Multiple Choice)</h6>
-          <p class="card-text">Write the first code question here? Then make the buttons correspond to answers.</p>
-          <a href="#" class="btn btn-primary">A</a>
-          <a href="#" class="btn btn-primary">B</a>
-          <a href="#" class="btn btn-primary">C</a>
-          <a href="#" class="btn btn-primary">D</a>
-
-
-          
+          <h5 class="card-title">Take the Code Quiz Challenge</h5>
+            <p class="card-text">try to answer the following code-related questions within the time limit. <br><br>WARNING!!!<br>Each incorrect answer will subtract 10 seconds from the timer.</p>
+          <a href="#" class="btn btn-primary">Click Here to Start the Quiz!</a>
         </div>
       </div>
       
@@ -56,10 +58,10 @@
 
 
 
-  <!--link to script.js JavaScript sheets-->
- <script src="script1.js"></script>
- <script src="script2.js"></script>
- <script src="script3.js"></script>
+ <!--link to script.js JavaScript sheets-->
+ <script src="./script1.js"></script>
+ <script src="./script2.js"></script>
+ <script src="./script3.js"></script>
     
 </body>
 </html>
