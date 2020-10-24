@@ -25,8 +25,35 @@ function updateCountdown()  {
 
 }
 
+// when Start Quiz is clicked begin countdown timer
+element.addEventListener("click", function(){ alert("Hello World!"); });
+
+// onlcick start, advance to the first question card.
+var question1 = {
+    title: "what is a function?",
+    option1: "correct answer",
+    option2: "b thing",
+    option3: "not a thing at all",
+    option4: "something",
+    
+}
 
 
+
+// if(document.getElementById('button').       clicked    == true)
+    // {
+    //     alert("button was clicked");
+}
+
+    if ($("#option1").clicked == true){
+       alert("Correct! Click OK to advance to the next question")
+    } else {
+        // time - 1000;
+        alert("Incorrect! Click OK to advance to the next question")
+    };
+    // button2 onclick= ();"
+    // button3 onclick= "();"
+    // button4 onclick= "();"
 
 
 // WHEN I answer a question
