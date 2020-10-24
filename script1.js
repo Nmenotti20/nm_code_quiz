@@ -7,7 +7,7 @@
 
 
 //Countdown timer
-const startingMinutes =10;
+const startingMinutes = 10;
 let time = startingMinutes * 60;
 
 const countdownEl = document.getElementById('countdown');
@@ -26,7 +26,13 @@ function updateCountdown()  {
 }
 
 // when Start Quiz is clicked begin countdown timer
-element.addEventListener("click", function(){ alert("Hello World!"); });
+document.getElementById("startButton").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("Hello World!");
+}
+
+href="./quiz.html"
 
 // onlcick start, advance to the first question card.
 var question1 = {
