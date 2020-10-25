@@ -26,7 +26,7 @@ function updateCountdown()  {
 }
 
 // when Start Quiz is clicked begin countdown timer
-document.getElementById("startButton").addEventListener("click", myFunction);
+document.getElementById("startQuizBtn").addEventListener("click", myFunction);
 
 function myFunction() {
   alert ("Hello World!");
@@ -49,7 +49,7 @@ var question1 = {
 // if(document.getElementById('button').       clicked    == true)
     // {
     //     alert("button was clicked");
-}
+
 
     if ($("#option1").clicked == true){
        alert("Correct! Click OK to advance to the next question")

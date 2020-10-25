@@ -4,19 +4,21 @@ body {
      }
 
 /*STYLE FOR COUNTDOWN TIMER CLOCK*/
-#timer {
+#countdown {
     float: right;
-    background-color:  rgb(65, 63, 63);
-    color: white;
+    background-color:  white;
+    color: black;
     display: inline-flex;
     justify-content: center;
+    margin-top: auto;
     margin-block-end: 20px;
     height: 35px;
     width: 150px;
 }
 
-#highscore {
-    margin-left: 20px;
+#vhsBtn {
+    margin-top: auto;
+    margin-block-start: auto;
     float: left;
 
 }
